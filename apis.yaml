@@ -1,0 +1,11 @@
+name: urai-sam OpenAPI registry
+description: This repository contains the OpenAPI definitions for urai-sam Graph APIs.
+tags:
+- urai-sam
+apis:
+- name: urai-sam Graph v1.0
+  description: The urai-sam Graph API offers a single endpoint.
+  baseUrl: https://graph.example.com/v1.0
+  properties:
+  - type: x-openapi
+    url: openapi/v1.0/openapi.yaml # can be the relative path on the repository or a publicly accessible URL
